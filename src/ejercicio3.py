@@ -19,7 +19,7 @@ def main():
     kilos = float(input("Ingrese un número de kilos: "))
     precio = calcularPrecio(fruta, kilos)
     if precio != 0:
-        print(f"El precio de {fruta} es de {precio:.2f}")
+        print(f"El precio de {fruta} es de {precio:.2f}€")
     else:
         print("esa fruta no está en el diccionario debe introducir una fruta válida")
 if __name__ == "__main__":

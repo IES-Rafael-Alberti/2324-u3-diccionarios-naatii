@@ -12,11 +12,12 @@ def detectarDivisa(divisa:str, diccionarioDivisas:dict)->bool:
         return True
     else: 
         return False
-
-if __name__ == "__main__":
+def main():
     diccionarioDivisa = {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}
     divisa = input("Ingrese una divisa: ")
     if detectarDivisa(divisa, diccionarioDivisa):
         print(f"La divisa {divisa} es una divisa valida")
     else:
         print(f"La divisa {divisa} no es una divisa valida")
+if __name__ == "__main__":
+    main()
